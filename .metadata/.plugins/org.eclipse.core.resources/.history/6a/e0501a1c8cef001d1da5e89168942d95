@@ -1,0 +1,18 @@
+package com.devsuperior.dslist.controllers;
+
+import java.util.List;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.devsuperior.dslist.entities.Game;
+
+@RestController
+@RequestMapping(value = "/games")
+public class GameController {
+
+	public List<Game> findAll() {
+		
+	}
+	
+}

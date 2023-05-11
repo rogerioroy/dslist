@@ -1,0 +1,5 @@
+package com.devsuperior.dslist.entities.services;
+
+public class GameService {
+
+}
