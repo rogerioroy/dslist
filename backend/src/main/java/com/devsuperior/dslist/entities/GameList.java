@@ -9,7 +9,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "tb_game_gameList")
+@Table(name = "tb_game_gamelist")
 public class GameList {
 
 	@Id
@@ -57,5 +57,4 @@ public class GameList {
 		GameList other = (GameList) obj;
 		return Objects.equals(id, other.id);
 	}
-
 }
